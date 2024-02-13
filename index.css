@@ -45,10 +45,6 @@
   color: white;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
 .grid-item {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
@@ -134,6 +130,7 @@
   mix-blend-mode: multiply;
   visibility: inherit;
   display: flex;
+  margin-bottom: 100px;
 }
 .vicky-three {
   transition: none;
@@ -156,7 +153,7 @@
 }
 .drag {
   font-size: 16px;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-right: 30px;
   color: white;
 }
@@ -166,4 +163,8 @@
   height: 100%;
   background-color: #333333;
   z-index: -1;
+}
+body{
+  position: fixed;
+  width: 100%;
 }
